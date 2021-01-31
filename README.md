@@ -16,7 +16,7 @@
 
 ## Description
 
-_This program makes suggestions on which programming language to learn first. It does so by asking the user to answer a series of questions. Based on their answers, the application will suggest to either learn JavaScript, Python or C#. 
+_This program makes suggestions on which programming language to learn first. It does so by asking the user to answer a series of questions. Based on their answers, the application will suggest to either learn JavaScript, Python or C#._
 
 ## Setup/Installation Requirements
 
