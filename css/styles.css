@@ -1,3 +1,8 @@
+#answers {
+  display: none;
+  text-align: center;
+}
+
 .center, .button {
   text-align: center;
 }
@@ -14,3 +19,4 @@
   margin-bottom: 10px;
   box-sizing: border-box;
 }
+
