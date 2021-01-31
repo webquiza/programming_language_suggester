@@ -7,10 +7,13 @@ $(document).ready(function() {
     const reason = $("#reason").val();
     const pets = $("#pets").val();
 
+    // declare initial variables equal to zero 
+
     let javascriptScore = 0;
     let pythonScore = 0;
     let sharpScore = 0;
 
+    // branching logic for hours id
     
     if (hours === "javascript") {
       javascriptScore += 1;
@@ -22,6 +25,7 @@ $(document).ready(function() {
       alert("It looks like you forgot to select an answer for the first question!");
     }
 
+    // branching logic for months id
 
     if (months === "javascript") {
       javascriptScore += 1;
@@ -33,6 +37,7 @@ $(document).ready(function() {
       alert("It looks like you forgot to select an answer for the second question!");
     }
 
+    // branching logic for experience id
 
     if (experience === "javascript") {
       javascriptScore += 1;
@@ -44,6 +49,7 @@ $(document).ready(function() {
       alert("It looks like you forgot to select an answer for the third question!");
     }
 
+    // branching logic for reason id
 
     if (reason === "javascript") {
       javascriptScore += 1;
@@ -55,6 +61,7 @@ $(document).ready(function() {
       alert("It looks like you forgot to select an answer for the fourth question!");
     }
 
+    // branching logic for pets id
 
     if (pets === "javascript") {
       javascriptScore += 1;
@@ -66,6 +73,7 @@ $(document).ready(function() {
       alert("It looks like you forgot to select an answer for the fifth question!");
     }
 
+    // branching logic that provides language suggestion to user
 
     if (javascriptScore > pythonScore && javascriptScore > sharpScore) {
       $("#suggested-language").text("JavaScript");
